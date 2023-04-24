@@ -24,7 +24,7 @@ export default function Home() {
           initial={{opacity: 0}}
           animate={{opacity: 1}} 
           transition={{delay: .8}}
-          className="h-[88vh] mx-auto p-4">
+          className="h-[88vh] w-full mx-auto p-4">
             <Banner/>
             <About/>
             <Experience/>

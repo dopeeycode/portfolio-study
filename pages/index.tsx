@@ -27,9 +27,9 @@ export default function Home() {
           className="h-[88vh] w-full mx-auto p-4">
             <Banner/>
             <About/>
-            <Experience/>
+            {/* <Experience/>
             <Projects/>
-            <Contact/>
+            <Contact/> */}
         </motion.div>
         <motion.div
           initial={{opacity: 0}}

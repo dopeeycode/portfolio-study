@@ -67,8 +67,8 @@ export default function Experience (){
               ${workReactBd 
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-              } border-l-2 border-l-textGreen text-textDark bg-transparent
-              hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+              } border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer 
+              duration-300 px-8 font-medium`}>
                 ReactDB
             </li>
             <li 
@@ -77,18 +77,18 @@ export default function Experience (){
               ${workGoogle 
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-              } border-l-2 border-l-textGreen text-textDark bg-transparent
-              hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+              } border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer 
+              duration-300 px-8 font-medium`}>
                 Google
             </li>
             <li 
               onClick={handleApple}
               className={`
-              ${workApple
+              ${workApple 
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-              } border-l-2 border-l-textGreen text-textDark bg-transparent
-              hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+              } border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer 
+              duration-300 px-8 font-medium`}>
                 Apple
             </li>
             <li 
@@ -97,8 +97,8 @@ export default function Experience (){
               ${workSplash 
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-              } border-l-2 border-l-textGreen text-textDark bg-transparent
-              hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+              } border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer 
+              duration-300 px-8 font-medium`}>
                 Splash
             </li>
             <li 
@@ -107,8 +107,8 @@ export default function Experience (){
               ${workAmazon 
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-              } border-l-2 border-l-textGreen text-textDark bg-transparent
-              hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+              } border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer 
+              duration-300 px-8 font-medium`}>
                 Amazon
             </li>
           </ul>
